@@ -1,0 +1,105 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "8e70d0cc-9426-4320-ad07-8609cf3762fd",
+   "metadata": {},
+   "source": [
+    "My Jupyter notebook "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "27974c72-5ec8-4cbe-8d92-6ce9b2e9e96a",
+   "metadata": {},
+   "source": [
+    "**Patarawaran Witoolkollachit**\n",
+    "Bussiness analyst"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "651440c5-7e63-491b-b9bf-3cb3c2f31782",
+   "metadata": {},
+   "source": [
+    "*I am interested in data science becuase I believe that data can increase efficiently and mitigate risks. Data is the most valuable resource. Learning to fully utilize it would lead to improvement and capability enhancement.*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bd1533aa-282a-42b3-bb19-f07665845f7b",
+   "metadata": {},
+   "source": [
+    "### finding average "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "a5f7c944-a488-4f09-bc6c-894ca063863b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Average value of the list:\n",
+      "\n",
+      "14.875\n",
+      "Average value of the list with precision upto 3 decimal value:\n",
+      "\n",
+      "14.88\n"
+     ]
+    }
+   ],
+   "source": [
+    "from statistics import mean \n",
+    "\n",
+    "inp_lst = [18, 19, 21, 25, 34, -7, 9, 0] \n",
+    "list_avg = mean(inp_lst) \n",
+    "\n",
+    "print(\"Average value of the list:\\n\") \n",
+    "print(list_avg) \n",
+    "print(\"Average value of the list with precision upto 3 decimal value:\\n\")\n",
+    "print(round(list_avg,2))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b481fff2-9579-4a45-9c2e-b2930839e834",
+   "metadata": {},
+   "source": [
+    "### Hello\n",
+    "Hi\n",
+    "***\n",
+    "Daily reminders:\n",
+    "1. Drink your water\n",
+    "2. Smile\n",
+    "3. Spread love & positivity\n",
+    "[click me](http://google.com)\n",
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.15"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
